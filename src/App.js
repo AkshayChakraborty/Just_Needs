@@ -51,10 +51,7 @@ function App() {
       path: "/register",
       component: <Register />
     },
-    {
-      path: "/blogdetails",
-      component: <BlogDetails />
-    },
+   
    
   ]
 
@@ -91,7 +88,11 @@ function App() {
     {
       path: '/order',
       component : <Order/>
-    }
+    },
+    {
+      path: "/blogdetails",
+      component: <BlogDetails />
+    },
   ]
   
   return (
